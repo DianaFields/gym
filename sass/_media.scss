@@ -1,0 +1,2233 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* MEDIA QUERIES */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* APP HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+@media(min-width: 1200px) {
+    .no-padding-left-lg {
+        padding-left: 0;
+    }
+    .no-padding-right-lg {
+        padding-right: 0;
+    }
+    .no-padding-lg {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .pull-right-lg {
+        float: right
+    }
+    .no-margin-lg {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1199px) {
+    //common styles
+    //padding for md screen
+    .padd-md-lr5{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .container-auto-md {
+        width: auto;
+    }
+    .text-md-center {
+        text-align: center;
+    }
+    .gym-classes .p-gym-info .service-block .cat {
+        padding-right: 0;
+    }
+    .gym-features.modern .wrap-img .wrap-text {
+        min-height: 55%;
+    }
+    .gym-features.modern.modern-light .wrap-text {
+        min-height: auto;
+    }
+    .gym-features.modern.modern-light .wrap-text .title {
+        font-size: 18px;
+    }
+    
+    
+    .app-banner-slider.slider-style-1 .app-slider-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 340px;
+        height: 666px;
+        margin-top: 9px;
+        padding: 72px 27px 0 27px;
+        background: url(../img/home_3/banner_phone.png) no-repeat 5px 0;
+    }
+        
+    //tabs
+    .app-tab-wrap{
+        .text-block{
+            padding: 119px 50px;
+        }
+        
+        .service-block.type-4{
+            padding: 0 50px;
+        }
+    }
+    
+    //2 phones slider
+    .app-slider_1{
+        .app-text-side{
+            width: 30%;      
+        }
+
+        .app-img-side{
+            width: 62%;
+        }
+    }
+    
+    //download secion
+    .app-description{
+        .c-btn{
+            width: 350px;
+        }
+    }
+    
+    //why us slider
+    .app-why{
+        .phone-img{
+            left: 0;
+        }
+    }
+    
+    //about
+    .app-about .cut_order_block.style-7 .cut_order_entry {
+        padding: 83px 23px 90px 23px;
+    }
+    
+    //testimonials
+    .app-testimonial-slider.slider-style-2{
+        .text-block{
+            .cut_block_header{
+                padding-left: 2%;
+            }
+        }
+
+        .swiper-container{
+            .swiper-slide{
+                padding: 40px 0;
+            }
+
+            .app-testimony{
+                padding: 0 30px;
+            }
+        }
+    }
+    
+    //price
+    .price-wrap.type-1{      
+        ul{
+            padding: 0 30px;
+        }
+    } 
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+    //banner slider
+    
+    .app-banner-slider.slider-style-1 .img-block{
+        display: none;
+    }
+    
+    .app-banner-slider.slider-style-1 .text-block .cut_block_header.style-1 {
+        padding-left: 0;
+    }
+    
+    .app-banner-slider.slider-style-1 .app-slider-box {
+        left: 5%;
+        transform: translate(0, -50%);
+    }
+    
+
+    
+    //tabs
+    .app-tab-wrap{
+        .text-block{
+            padding: 119px 30px;
+        }
+        
+        .service-block.type-4{
+            padding: 0 30px;
+        }
+    }
+
+    //2 phones slider
+    .app-slider_1{
+        .app-text-side{
+            display: block;
+            margin: 0 auto;
+            width: 94%;   
+            padding-top: 0;
+        }
+
+        .app-img-side{
+            margin: 30px auto 0;
+            width: 94%;
+            display: block;
+        }
+    }
+  
+     //download    
+    .app-description{
+         width: 80%;    
+    }
+    
+    //why us slider
+    .app-why{
+        .phone-img{
+            left: 0;
+        }
+    }
+    
+    //about
+    .app-about .row-eq-height{
+        display: block;
+        
+    }
+    .app-about .cut_order_block.style-7 .cut_order_entry {
+        padding: 83px 43px 90px 43px;
+    }
+    
+    .app-about .cut_order_block{
+        margin: 0 70px;
+
+        padding-bottom:0;
+    }
+
+    //testimonials
+    .app-testimonial-slider.slider-style-2{
+        .text-block{
+            min-height: 350px;
+            .cut_block_header{
+                vertical-align: top;
+                padding: 50px;
+                .cut_block_header_cat, .cut_block_header_title{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+        
+        .img-block{
+           min-height: 350px; 
+        }
+        
+         .app-slider-box{
+            width: 90%;
+        }
+        
+        .swiper-container .app-testimony {
+            padding: 0 50px;
+        }
+    }
+
+    //price
+    .price-wrap.type-1 {
+        margin: 0 70px 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container-responsive {
+        width: auto;
+    }
+    .no-padd-md {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .gym-features.modern .wrap-img .wrap-text {
+        min-height: initial;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .xs-no-padd{
+        padding: 5px;
+    }
+    .text-xs-center {
+        text-align: center;
+    }
+    .gym-top-banner {
+        min-height: 500px;
+        padding: 0 15px;
+        @-moz-document url-prefix() {
+           & {
+             height: 500px;
+           }
+        }
+    }
+    .c-post .c-post-author .author-image {
+        float: none;
+        margin-bottom: 15px;
+    }
+    .c-post .c-post-author .author-info {
+        padding-left: 0;
+    }
+    .c-post .c-post-author ul a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .c-post .c-posts-offers .c-offers-post a img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c-post .c-posts-offers .c-offers-post .entry-title a,
+    .c-post .c-posts-offers .c-offers-post .posted-on {
+        text-align: center;
+    }
+    .c-post .c-line {
+        padding-bottom: 30px;
+    }
+    .p-gym-info .gym-wrap {
+        padding-left: 50px;
+    }
+    .p-gym-info .header-title {
+        font-size: 32px;
+    }
+    .gym-features-info {
+        padding: 60px 0 60px;
+    }
+    .gym-features.modern .wrap-img .desc {
+        padding: 0 15px;
+    }
+    .footer-style-2 {
+        padding-top: 50px;
+    }
+    //banner
+    .app-banner-slider.slider-style-1{
+        min-height: 1150px;
+    }
+    
+    .app-banner-slider.slider-style-1 .app-slider-box {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .app-banner-slider.slider-style-1 .text-block .cut_block_header{
+        vertical-align: top;
+    }
+    
+    //slider 2
+    .app-slider_1 .app-text-side {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    
+    .app-slider_1 .app-text-side .cut_block_header_cat {
+        margin-left: 0;
+    }
+    
+    .app-slider_1 .app-text-side .cut_block_header{
+        padding-left: 10px;    
+    }
+    
+    .swiper-container-vertical{
+        .pagination{
+            left: 8px;
+        }
+    }
+    //tabs
+    .app-tab-wrap{       
+        .text-block, .features-block{
+            width: 100%;
+            display: block;
+            padding: 40px 20px;
+        }
+        
+        .service-block.type-4{
+            padding: 0 20px;
+        }
+    }
+    
+    //downlod section
+    .app-download > .container{
+        background-image: none;
+    }
+    
+    .app-description .text {
+        width: 100%
+    }
+    
+    .app-description{
+        width: 90%;
+        margin: 0 auto;
+        padding: 55px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .c-btn{
+            width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    //testimonial
+    .app-testimonial-slider.slider-style-2 .app-slider-box {
+        width: 96%; 
+        min-height: 400px;
+    }
+    
+    .app-testimonial-slider.slider-style-2 .text-block .cut_block_header {
+        padding: 30px 10px;
+    }
+    
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    //banner
+    .app-banner-slider.slider-style-1 .app-slider-box{
+        top: 42%;
+    }
+    .c-post .c-post-comments .comment-author a {
+        display: block;
+    }
+    .c-post .c-post-comments .comment-author img {
+        margin: 0 20px 40px 0;
+    }
+    .c-post .c-post-comments .time {
+        position: static;
+        margin-top: 5px;
+    }
+    .c-post .entry-content .tags-links a {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .c-post .entry-content blockquote {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .c-post .c-post-comments .comment-text {
+        padding-left: 20px;
+    }
+    .c-post .c-post-comments .comment-reply-link {
+        left: 5px;
+    }
+    .c-post .c-post-comments .c-comment-list li.depth-2 {
+        padding-left: 40px;
+    }
+    .c-post .c-post-comments .comment-author a {
+        display: block;
+    }
+    .c-post .entry-content {
+        line-height: 26px;
+    }
+    .image-item.type-2 {
+        height: 500px;
+    }
+    .hidden-mobile {
+        display: none !important;
+    }
+    .p-gym-articles .swiper-container {
+        padding-bottom: 25px;
+    }
+    
+    //tabs
+    .app-tab-elem{
+        margin-top: 80px;
+    }
+    
+    .app-tab-list{
+        width: 100%;
+        li{
+            float: left;
+            display: table;
+            width: 50%;
+        }
+        
+        li:nth-child(1) a, li:nth-child(2) a{
+            border-bottom: 1px solid #fff;
+        }
+    }
+    
+    //downlod section
+    .app-download > .container {
+        background-image: none;
+    }
+    
+    .app-description{
+        width: 98%;
+        margin: 0 auto;
+        border: none;
+        padding: 40px 10px 40px 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        .text{
+            width: 100%;
+            
+        }
+        
+        .c-btn{
+            width: 210px;
+        }
+    }
+    
+    //about
+    .app-about .cut_order_block {
+        margin: 0;
+    }
+    
+    //testimonial
+    .app-testimonial-slider.slider-style-2 .swiper-container .app-testimony {
+       padding: 0 20px;
+    }
+    
+    //price
+    .price-wrap.type-1 {
+        margin: 0 0 30px;
+    }
+    
+    //footer
+    .footer-style-1{
+        padding-bottom: 10px;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* LAW HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Large desktop */
+@media (max-width: 1510px) {
+    .header-style-2.type-1 .logo.classic {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 1450px) {
+    .container-responsive {
+        width: auto;
+    }
+    .gym-trainers .content-info {
+        padding: 70px 20px 0 10px;
+    }
+    .gym-trainers {
+        padding: 30px 20px 50px 20px;
+    }
+}
+@media (max-width: 1380px) {
+    .header-style-2.type-1 .logo.classic {
+        padding: 0 20px;
+    }
+    .header-style-2 .navigation nav > ul > li {
+        margin: 0px 13px;
+    }
+    .gym-section .info-wrap {
+        padding: 2px 20px 0 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    //ORDER BLOCK
+    .law-cut-order .col-sm-6 {
+        padding: 0 50px;
+    }
+    .no-padd-md {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .gym-trainers .content-info {
+        padding: 40px 20px 0 10px;
+    }
+    .gym-section .header-title {
+        font-size: 50px;
+    }
+    .header-style-2 .navigation nav > ul > li {
+        margin: 0px 7px;
+    }
+    .banner-header.right .law-banner-title {
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .header-style-2 .white-large {
+        max-width: 160px;
+    }
+    .about-banner {
+        top: 90px;
+    }
+    
+    
+    //customers
+    .law-customers .law-testimony-cat {
+        margin-top: 80px;
+    }
+    
+    .law-customers .law-testimony-text {
+        padding-top: 120px;
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+    //ORDER BLOCK
+    .law-cut-order .col-sm-6 {
+        padding: 0 30px;
+    }
+    
+    //SERVICES
+    .law-services .service-block.type-2 .image {
+        min-width: 50px;
+    }
+    .law-services .service-block.type-2 .desc {
+        padding-left: 70px;
+    }
+    
+    //RECEIVE
+    .law-receive{
+        min-height: 650px;    
+    }
+    
+    .law-receive .law-receive-accord .stvy-accordion .stvy-active-expander {
+        padding: 140px 30px 20px 30px;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .law-receive .law-receive-header {
+        display: block;
+        height: 207px;
+        float: none;
+        width: 100%;
+    }
+    
+    .law-receive .law-receive-header .header-wrap {
+        display: block;
+        vertical-align: bottom;
+    }
+    
+    .law-receive .law-receive-accord {
+        float: none;
+        width: 100%;
+    } 
+    
+    //PRACTICE
+    .law-practice .law-practice-icons .row .col-sm-6{
+        border-right: none !important;
+    }
+    
+    .law-practice .law-practice-icons .row .col-sm-6:nth-child(odd){
+        border-bottom: 1px solid #f2f2f2;
+    }
+    
+    //WHY
+    .law-why .law-why-testimonial {
+        padding: 40px 20px 40px;
+    }
+    
+    //CUSTOMERS
+    .customers-logos .logo-box:nth-child(-n+3) {
+        border-bottom: 1px solid #f2f2f2;  
+    }
+    .customers-logos .logo-box:nth-child(3){
+        border-right: none;
+    }
+    
+    //footer
+    .law-footer.type-3 .footer-bottom .fl, .law-footer.type-3 .footer-bottom .fr {
+        float: none;
+        height: 50px;
+        .table-cell{
+            display: block;
+        }
+    }
+    
+    .law-footer.type-3 .footer-bottom .fl{
+        .copyright{
+            float: none;
+            padding: 30px 0;
+            text-align: center;
+        }
+    }
+    
+    .law-footer.type-3 .footer-bottom .fr{
+        .footer-link{
+            float: none;
+            padding: 30px 0 10px;
+            text-align: center;
+            
+            li{    
+                float: none;
+                display: inline;
+            }
+        }
+    }
+
+    
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    //banner
+    .law-banner .law-slider-one .swiper-arrow-left {
+        left: 10px;
+    }
+    
+    .law-banner .law-slider-one .swiper-arrow-right {
+        right: 10px;
+    }
+    .p-gym-trainers .gym-trainers-right, .p-gym-trainers .gym-trainers-left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .p-gym-trainers .swiper-container .swiper-arrow-left, 
+    .p-gym-trainers .swiper-container .swiper-arrow-right {
+        display: none;
+    }
+    .banner-header.right .law-banner-title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    //accordion
+    .law-receive .law-receive-accord .stvy-accordion{
+            height: inherit;
+            .stvy-accordion-panel{
+                display: block;
+                float: none;
+                min-height: 100px;
+                background: #fff;
+            }
+            .stvy-accordion-heading{
+                height: 100px;
+                width: 100%;
+                float: none;
+                border-top: 1px solid #f2f2f2;
+                border-left: none;
+                line-height: 0;
+                text-align: center;
+                &:hover{
+                    color: #af9659;
+                }
+                span{
+                    width: 100%;
+                    display: inline;
+                    position: relative;
+                    margin-top: 0;
+                    line-height: 100px;
+                    transform: rotate(0) translateY(0%);
+                }
+
+            }
+            
+            .stvy-accordion-expander{
+                float: none;
+                height: 0;
+                width: 100%;
+                padding: 0 30px;
+                visibility: hidden;
+                background: #f6f6f6;
+                transition: all ease-in-out .4s;
+                opacity: 0;
+            }
+            
+            .stvy-active-expander{
+                padding: 30px 30px 30px 30px;
+                opacity: 1;
+                visibility: visible;
+            }
+            
+            
+            .c-btn{
+                margin-top: 35px;
+            }
+        }
+    //services
+    .law-services .row{
+        padding: 0 30px;
+    }
+    
+    .law-services .row:nth-child(1) {
+        border-bottom: none;
+    }
+    
+    .law-services .col-xs-12.col-sm-4 {
+        border: none;
+        text-align: center;
+        .service-block{
+            display: inline-block;
+            border: none;
+            text-align: left;
+        }
+    }
+    
+    //benefits
+    .law-benefits .cut_block_header .cut_block_header_desc{
+        width: 80%;
+    }
+    
+    //WHY
+    .law-why {
+        min-height: 707px;
+        padding: 60px 0;
+    }
+    
+    
+    //CUSTOMERS
+    .law-customers .laws-customers-right {
+        left: 0;
+    }
+    .law-customers .law-testimony-text {
+        padding-top: 130px;
+    }
+    .law-customers .law-testimony-person {
+        margin-top: 50px;
+    }
+    
+    .customers-logos .logo-box{
+        border-left: none !important;
+        border-right: none !important;
+    }
+    
+    .customers-logos .logo-box:nth-child(odd) {
+        border-right: 1px solid #f2f2f2 !important;  
+    }
+    .customers-logos .logo-box:nth-child(3) {
+        border-right: 1px solid #f2f2f2;  
+    }
+    .customers-logos .logo-box:nth-child(4) {
+        border-bottom: 1px solid #f2f2f2;  
+    }
+    
+    
+    
+    //news
+    .law-news .law-heading .law-heading-desc{
+        width: 80%;
+    }
+    
+    //footer
+    .law-footer.type-3 .footer-bottom {
+        min-height: 290px;
+    }
+    
+    .law-footer.type-3 .footer-bottom .fr{
+        .footer-link{
+            float: none;
+            padding: 10px 0 10px;
+            text-align: center;
+            
+            li{    
+                float: none;
+                padding: 5px 0;
+                display: list-item;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 580px) {
+    .col-xs-mobile {
+        width: 100%;
+    }
+    .gym-banner-helper .content-info {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .gym-banner-helper {
+        min-height: 420px;
+    }
+    .gym-gallery .gym-tabs .but:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    //services
+    .law-services .row {
+        padding: 0;
+    }
+    
+    .c-btn.size-7.font-3 {
+        font-size: 14px;
+        padding: 21px 30.5px;
+    }
+
+    .p-gym-info .service-block:last-child {
+        margin-bottom: 30px;
+    }
+    
+    .gym-for .gym-for-him, .gym-for .gym-for-her {
+        height: 350px;
+    }
+    
+    .law-services .col-xs-12.col-sm-4 .service-block {
+        width: 90%;
+    }
+    .banner-header.right .law-banner-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .gym-section .header-title {
+        font-size: 35px;
+    }
+    
+    
+    //why
+    .law-why .law-why-testimonial {
+        padding: 20px 10px 20px;
+        border: none;
+    }
+    
+}
+@media (max-width: 330px) {
+    .p-gym-trainers .gym-trainers-right, .p-gym-trainers .gym-trainers-left {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .p-gym-trainers .gym-trainers-right .text,
+    .p-gym-trainers .gym-trainers-right .title {
+        padding-right: 15px;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* GYM HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1200px) { 
+    //trainers
+    .p-gym-trainers .gym-trainers-left .left-title {
+        font-size: 100px;
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+    
+    //info slider
+    .p-gym-slider .gym-heading-style {
+        width: 70%;
+    }
+    .p-gym-slider {
+        padding: 0 50px;
+    }
+    
+    .p-gym-slider .cut_order_block {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    //trainers
+    .p-gym-trainers .table-cell{
+        padding: 50px 50px 50px;
+    }
+    .p-gym-trainers .gym-trainers-right .text{
+        width: 90%;
+    } 
+    
+    .p-gym-trainers .gym-trainers-left .left-title {
+        font-size: 150px;
+    }
+    
+    //helpful articles
+    .p-gym-articles {
+        margin-top: 40px;
+    }
+    
+    //footer
+    .p-gym-footer .f-contact p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    
+    //info block
+    .p-gym-info {
+        min-height: 700px;
+    }
+    
+    .p-gym-info .gym-info-right {
+        left: 0;
+        padding: 0 50px;
+        min-height: 700px;
+    }   
+    
+    .p-gym-info .gym-info-right {
+        padding-top: 50px;
+    }
+    
+    //classes
+    .p-gym-classes{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        min-height: 900px;
+    }
+    
+    .p-gym-classes .gym-classes-row{
+        margin-top: 30px;
+    }
+    
+    .p-gym-classes .gym-classes-row .gym-class-col {
+        width: 100%;
+        padding: 20px 0;
+    }
+    //info slider
+    .p-gym-slider .gym-heading-style {
+        width: 90%;
+    }
+    
+    //gallery
+    .p-gym-gallery .gym-gallery-image {
+        width: 50%;
+    }
+    
+    //trainers
+    .p-gym-trainers .gym-trainers-left .left-title {
+        font-size: 100px;
+    }
+    
+    //helper
+    .image-item.type-2 .text-side{
+        float: none;
+        width: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .image-item.type-2 .image-side {
+        display: none;
+    }
+    
+    //helpful articles
+    .gym-heading-style{
+        width: 70%;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    //banner
+    .banner-header .law-banner-title {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .p-gym-trainers .table-cell {
+        padding: 40px 0;
+    }
+    
+    //info block
+    .p-gym-info .gym-info-right {
+        padding: 40px 0;
+    }
+    
+    .p-gym-info .gym-info-right .header-title{
+        font-size: 25px;
+        line-height: 38px;
+    }
+    
+    .p-gym-info .gym-info-right .header-desc {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .p-gym-info .service-block .image {
+        position: static;
+        height: 110px;
+        text-align:  center;
+        img.vertical-align{
+            position: static;
+            margin-top: 40px;
+            height: 110px;
+            margin: 0 auto;
+            transform: translateY(0);
+        }
+    }
+    
+    .service-block.type-2 .desc{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .p-gym-info .gym-info-right .header-desc{
+        width: 80%;
+    }
+    
+    .p-gym-info .service-block .desc {
+        padding-left: 0;
+    }
+    
+    //trainers
+    .p-gym-classes {
+        min-height: 800px;
+    }
+    
+    //info slider
+    .p-gym-slider .gym-heading-style {
+        width: 100%;
+    }
+    
+    .p-gym-slider {
+        padding: 0;
+    }
+    
+    //trainers
+    .p-gym-trainers .gym-trainers-left {
+        display: none;
+    }
+    
+    .p-gym-trainers .swiper-container {
+        min-height: 400px;
+    }
+    .footer-style-2 {
+        padding-top: 30px;
+    }
+    .p-gym-trainers .gym-trainers-right .trainers-info{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .p-gym-trainers .gym-trainers-right .title {
+        width: auto;
+        font-size: 25px;
+    }
+    
+    .p-gym-trainers .gym-trainers-right .text {
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* EVENT HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+//banner
+    .event-ClassyCountdown{
+        width: 70%;
+    }
+    
+    //program
+    .p-event-tab-elem .text-block {
+        padding: 80px 50px 20px;
+    }
+    
+    .p-event-tab-elem .features-block .event-speaker {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .p-event-tab-elem .features-block .details-toggle {
+        right: 20px;
+    }
+    
+    .p-event-tab-elem .service-block .cat {
+        width: 70%;
+    }
+    
+    //info banner
+    .p-event-info-banner .p-event-header {
+        width: 70%;
+        text-align: right;
+    }
+
+}
+
+@media(max-width: 991px) {
+    .no-padding-sm {
+        padding: 0;
+    }
+    .owl-wrapper-outer {
+        text-align: center;
+    }
+    .padd-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .gym-blog .search-field {
+        width: 100%;
+    }
+    .c-post, .wpc-pagination {
+        padding-left: 0;
+        text-align: center;
+    }
+    .c-post .entry-title {
+        font-size: 27px;
+    }
+    .gym-gallery .gym-tabs {
+        text-align: center;
+    }
+    .container-full-sm {
+        width: auto;
+    }
+    .p-gym-articles .cut_order_block {
+        text-align: center;
+    }
+    .gym-features.modern.modern-light {
+        margin-left: 0;
+    }
+    .gym-section .info-wrap {
+        padding: 2px 0 0 0;
+    }
+    .gym-section .header-title.left {
+        padding-left: 0;
+    }
+    .clear-md {
+        clear: both;
+    }
+    .text-sm-center {
+        text-align: center;
+    }
+    .gym-banner-helper .title.large-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .gym-features.modern .wrap-img .title {
+        font-size: 25px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    //banner
+    .event-ClassyCountdown{
+        width: 600px;
+    }
+      
+    //info
+    .p-event-info {
+        position: relative;
+        margin-top: 120px;
+    }
+    
+    .p-event-info .info-letters {
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        transform: translateY(0);
+    }
+    
+    .p-event-info .p-event-header{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    //program
+    .p-event-tab-elem .text-block {
+        width: 100%;
+        float: none;
+    }
+    .p-event-tab-elem .features-block {
+        width: 100%;
+        float: none;
+    }
+    
+    .p-event-prog-head {
+        margin-top: 140px;
+    }
+    
+    .event-slider-two .event-info-slide .slide-img{
+        left: 30px;
+    }
+    
+    .event-slider-two .event-info-slide .slide-text{
+        right: 30px;
+    }
+    
+    .event-slider-two .event-info-slide .p-event-text, .event-slider-two .event-info-slide .p-event-header {
+        padding-left: 20px;
+    }
+    
+    //gallery
+    .p-event-gal-head .p-event-header {
+        position: absolute;
+        right: 10px;
+    }
+    .p-event-header .p-event-header-title {
+        font-size: 20px;
+    }
+    
+    //info video slider
+    .event-slider-three {
+        margin-top: 0;
+    }
+    .event-slider-three .event-info-slide .slide-text {
+        padding-left: 40px;
+    }
+    
+    .event-slider-three .event-info-slide .p-event-text, .event-slider-three .event-info-slide .p-event-header {
+        padding-left: 0;
+    }
+    
+    //info-banner
+    .p-event-info-banner .p-event-header {
+        width: 60%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    //header
+    .dropmenu li a {
+        padding: 15px 0;
+    }
+    
+    //banner
+    .event-slider-one .swiper-arrow-left {
+        left: 0;
+    }
+    
+    .event-slider-one .swiper-arrow-right {
+        right: 0;
+    }
+    
+    .event-banner-heading .banner-title {
+        font-size: 40px;
+    }
+        
+    .event-ClassyCountdown {
+        width: 300px;
+    }
+    
+    .ClassyCountdown-minutes, .ClassyCountdown-hours, .ClassyCountdown-days, .ClassyCountdown-seconds{
+        width: calc(50% - 20px) !important;
+    }
+    
+    .event-ClassyCountdown .ClassyCountdown-wrapper canvas {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+     //about
+    .cut_video_block{
+        max-width: 400px;
+        margin: 10px auto 0;
+    }
+    
+    //info block
+    .p-event-info {
+        position: relative;
+        margin-top: 100px;
+        padding: 40px 0;
+    }
+
+    //program
+    .p-event-tab-elem .features-block .event-speaker {
+        padding: 20px 20px;
+    }
+    
+    //info slider
+    .event-slider-two{
+        margin-top: 100px;
+        margin-bottom: 100px;    
+    }
+    
+    .event-slider-two .event-info-slide {
+        min-height: 400px;
+    }
+    
+    .event-slider-two .event-info-slide .slide-img {
+        display: none;
+    }
+    
+    .event-slider-two .event-info-slide .slide-text {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;  
+    }
+    
+    .info-sl-wrap-two .swiper-outer-right {
+        right: 0;
+        transform: translate(0, -50%);
+    }
+    
+    .info-sl-wrap-two .swiper-outer-left {
+        left: 0;
+        transform: translate(0, -50%);
+    }
+    
+    //gallery
+    .p-event-gal-wrap{
+        padding: 0 40px;
+    }
+    
+    .p-event-gal-pic, .p-event-gal-head {
+        width: 50%;
+    }
+    
+    ///video slider
+    .event-slider-three .event-info-slide .slide-img {
+        position: static;
+        width: 70%;
+        margin: 0 auto;
+        right: auto;
+        top: auto;
+        transform: translateY(0);
+    }
+    
+    .event-slider-three .event-info-slide .slide-text {
+        position: static;
+        min-height: 200px;
+        padding: 80px 0 40px;
+        width: 100%;
+        left: auto;
+        top: auto;
+        padding-left: 60px;
+        border: none;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    .event-slider-three .event-info-slide .slide-text .vertical-align {
+        width: 80%;
+        margin: 0 auto;
+    }    
+    
+    .event-slider-three .event-info-slide {
+        margin: 30px 0;
+    }
+    
+    //info banner
+    .p-event-info-banner::before{
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        background: #fff;
+        opacity: .7;
+        z-index: 0;
+    }
+    .p-event-info-banner .p-event-header {
+        position: relative;
+        z-index: 2;
+        width: 90%;
+    }
+    
+    .p-event-info-banner .p-event-header .p-event-header-desc{
+        color: #444;
+    }
+    
+    //forms
+    .contact-link-wrap{
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .p-gym-gallery .gym-gallery-heading {
+        top: 50%;
+        bottom: auto;
+        background: none;
+    }
+    .p-gym-gallery .gym-gallery-image .img:before {
+        content: "";
+        background: rgba(51, 51, 51, 0.8);
+        opacity: 1;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    //banner
+    .event-banner-heading .banner-desc{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .gym-banner-helper .title.large-title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .gym-features .wrap-img {
+        min-height: 350px;
+    }
+    .gym-features .wrap-info {
+        padding: 30px 40px 30px;
+        max-height: 450px;
+    }
+    .container-fluid {
+        min-width: auto;
+    }
+    
+    //program
+    .p-event-prog-head {
+        margin-top: 60px;
+    }
+    
+    .p-event-tab-elem .features-block .event-speaker {
+        padding: 20px 10px;
+    }
+    
+    .p-event-tab-elem .features-block .service-block .desc {
+        padding-left: 100px;
+    }
+    
+    //info block
+    .p-event-info{
+        border: none;
+    }
+    
+    .p-event-tab-elem .text-block {
+        padding: 40px 20px 20px;
+    }
+    
+    .p-event-info .p-event-header {
+        width: 100%;
+    }
+    
+    //info slider
+    .event-slider-two .event-info-slide{
+        padding: 0 20px;
+    }
+    
+    .info-sl-wrap-two::before {
+        display: none;
+    }
+    
+    .info-sl-wrap-two .swiper-outer-right {
+        right: -15px;
+        opacity: .6;
+    }
+    
+    .info-sl-wrap-two .swiper-outer-left {
+        left: -15px;
+        opacity: .6;
+    }
+    
+    //gallery
+    .p-event-gal-wrap{
+        padding: 0;
+    }
+    .p-event-gal-pic, .p-event-gal-head {
+        width: 86%;
+        margin: 0 7%;
+    }
+    
+    
+    .p-event-header .p-event-header-title {
+        font-size: 30px;
+    }
+    
+    //vide slider
+    .event-slider-three .event-info-slide .slide-text{
+        padding: 160px 20px 0;    
+    }
+    
+    .event-slider-three .pagination {
+        left: 0;
+    }
+    
+    //info banner
+    .p-event-info-banner .p-event-header {
+        width: 90%;
+
+    }
+}
+@media only screen and (max-width : 375px) {
+    .gym-banner-helper.classic.large-banner {
+        min-height: 500px;
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* RESUME HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+@media only screen and (max-width : 1650px) {
+     //header
+    .p-resume-header .navigation nav > ul > li > a {
+        padding: 42px 42px;
+    }
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    //header
+     .p-resume-header .navigation nav > ul > li > a {
+        padding: 42px 28px;
+    }
+    .gym-features .wrap-info {
+        padding-top: 70px;
+    }
+    
+    //banner
+    .p-resume-services .services-box {
+        padding: 90px 60px 0px 60px;
+    }
+    .p-resume-banner .banner-heading {
+        padding: 55px 60px;
+    }
+    
+    //about
+    .p-resume-about {
+        padding: 55px 40px;
+    }
+    
+    //experience wrapper
+    .resume-exp-wrap .tl-wrap.line::before, .resume-exp-wrap .tl-wrap.line-2::before {
+        top: 94px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    //header
+    header nav > ul > li > .dropmenu.type-1 li a {
+        display: inline-block;
+        padding: 15px 0;
+    }
+    .about-banner {
+        top: 0;
+        margin: 50px auto 50px;
+        float: none;
+        right: 0;
+    }
+    
+    //banner
+    .p-resume-banner{
+        margin-top: 60px;
+    }
+    
+    //about
+    .p-resume-wrap{
+        display: block;
+    }
+    .p-resume-wrap .p-resume-about {
+        min-height: 500px;
+        display: block;
+        width: 100%;
+    }
+    .p-resume-wrap .p-resume-about-center {
+        border: none;
+        background-position: top center;
+    }
+    
+    //services
+    .p-resume-services .services-box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    //references
+    .p-resume-references .about-box {
+        padding: 53px 50px 52px;
+        background: #222222;
+        text-align: center;
+    }
+    
+    //contancts
+    .resume-contact-form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume-contact-form .resume-form-name, .resume-contact-form .resume-form-email, .resume-contact-form .resume-form-subject, .resume-contact-form textarea {
+        display: inline-block;
+        width: 80%;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .xs-no-padd{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .xs-padd-15{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    //heading
+    .cut_block_header.style-3.resume-type{
+        margin-left: auto;
+        .cut_block_header_cat{
+            left: 50%;
+        }
+    }
+    
+    //header
+   .p-resume-header  .navigation ul{
+        overflow: scroll !important;
+    }
+    
+    //experience
+    .resume-exp-wrap .tl-wrap.line::before, .resume-exp-wrap .tl-wrap.line-2::before{
+        top: 100px;
+    }
+    
+    //services
+    .p-resume-services {
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 80px 0 100px;
+    }
+    .p-resume-services .services-box {
+        padding: 90px 20px 0px 20px;
+    }
+    
+    //references
+    .p-resume-references .p-references-slider-one {
+        width: 90%;
+    }
+    
+    //gallery
+    .p-resume-gal-img {
+        width: 50%;
+    }
+    
+    //contacts
+    .resume-contact-address .address-left, .resume-contact-address .address-right {
+        float: none;
+        width: 100%;
+    }
+    .resume-contact-address .address-right{
+        margin-top: 40px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    //banner
+    .p-resume-banner .banner-heading {
+        position: relative;
+        padding: 55px 20px;
+    }
+    .p-resume-banner .banner-heading .title {
+        font-size: 40px;
+    }
+    .gym-features .wrap-info {
+        padding-top: 20px;
+    }
+    .c-btn.size-5.font-3 {
+        padding: 22px 44.5px;
+        font-size: 16px;
+    }
+    
+    //resume-exp
+    .resume-exp-wrap .tl-wrap, .resume-exp-wrap .pos-wrap {
+        display: block;
+        width: 100%;
+    }
+    
+    .resume-exp-wrap .tl-wrap.line::before, .resume-exp-wrap .tl-wrap.line-2::before{
+        display: none;
+    }
+    
+    .exp-place {
+        text-align: center;
+    }
+    
+    //services
+    .p-resume-services {
+        padding: 10px 0 40px;
+    }
+    .p-resume-services .services-box {
+        padding: 90px 20px 0px 20px;
+    }
+    
+    .p-resume-services .exp-box {
+        width: 80%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    //references
+    .p-resume-references .p-references-slider-one {
+        width: 100%;
+    }
+    //references
+    .p-resume-references {
+        padding: 140px 15px 47px;
+    }
+    
+    .p-resume-references .about-box {
+        padding: 53px 20px 52px;
+    }
+    
+    //portfolio
+    .p-resume-gal-img {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 360px) {
+    .cut_block_header.style-3 .cut_block_header_title {
+        padding: 26.5px 30px;
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* CONSTRUCTION HOME */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    //why
+    .p-const-choose .p-const-choose-text {
+        position: relative;
+        padding: 123px 30px 58px 50px;
+    }
+    
+    //projects
+    .p-const-projects .const-slider-two .project-box .project-date {
+        width: 90%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1008px) {
+    //info block 2
+    .p-const-info2{
+        background-size: 50%;
+    }
+    
+    //projects
+    .swiper-wrapper .swiper-slide, .swiper-wrapper .swiper-slide-active{
+        .project-box{
+            img, .project-place{
+                opacity: 1;
+            }
+            
+            .cells{
+                display: none;
+            }
+            .project-date{
+                opacity: 1;
+                color: #ffba00;
+                font-size: 60px;
+            }
+            
+            .project-desc{
+                opacity: 1;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        }
+        
+    }
+    
+    .p-const-projects{
+        .swiper-arrow-left, .swiper-arrow-right{
+            position: absolute;
+            top: 50%;
+            height: 60px;
+            width: 60px;
+            transform: translateY(-50%);
+            background: #fff center center no-repeat;
+            cursor: pointer;
+            transition: all ease-in-out .4s;
+            z-index: 5;
+            &:hover{
+                background-color: $main-const-c;
+                opacity: .7;
+            }
+        }
+        
+        .swiper-arrow-left{
+            left: 0;
+            background-image: url(../img/home_12/left_arrow.png);
+        }
+
+        .swiper-arrow-right{
+            right: 0;
+            background-image: url(../img/home_12/right_arrow.png);
+        }
+    }
+    
+    //why
+    .p-const-choose .p-const-choose-text {
+        padding: 100px 40px 58px;
+        width: 100%;
+    }
+    
+    .p-const-choose .p-const-choose-img .img-back {
+        display: none;
+    }
+    
+    //best projects
+    .p-const-best .p-const-best-imgs{
+        text-align: center;
+    }
+    
+    .p-const-best .p-const-best-imgs .best-imgs-box {
+        width: 308px;
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+    .p-const-block {
+        padding: 60px 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    //header
+    // .header-style-2 {
+    //     right: 15px;
+    //     left: 15px;
+    // }
+    
+    //info block 1
+    .p-const-info1 .info1-box-left, .p-const-info1 .info1-box-right {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    //info block 2
+    .p-const-info2 {
+        margin-top: 40px;
+        &::before{
+            background: rgba(255,255,255,.7);
+        }
+    }
+    
+    .p-const-info2 .info2-right {
+        margin-left: -15px;
+    }
+    
+    //services
+    .p-const-services .hdng-1 .desc {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    //why
+    .p-const-choose .p-const-choose-text {
+        padding: 100px 60px 58px;
+    }
+    
+    .p-const-choose .p-const-choose-text .service-block {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    //choose
+    .p-const-ready p {
+        width: 80%;
+    }
+    
+    //footer
+    .p-const-footer .copyright{
+        width: 100%;
+        display: block;
+        text-align: center;
+        .table-cell{
+            display: inline-block;
+        } 
+    }
+    
+    .p-const-footer .footer-folow {
+        text-align: center;
+        .table-cell{
+            display: inline-block;
+        }
+    }
+}
+@media(max-width: 767px) {
+    .gym-classes .bg-img {
+        min-height: 350px;
+    }
+    .gym-classes .gym-classes-info.right .subheading {
+        width: auto;
+    }
+    .gym-classes .p-gym-info .service-block .image {
+        height: auto;
+    }
+    .c-post .entry-title {
+        font-size: 24px;
+    }
+    .gym-gallery .bg-gal, .gym-gallery .bg-gal.bg-large {
+        min-height: 300px;
+    }
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 550px) {
+    //why
+    .text-mobile-center {
+        text-align: center;
+    }
+    .p-const-choose .p-const-choose-text {
+        padding: 100px 20px 58px;
+    }
+    .p-gym-info .gym-wrap {
+        padding-left: 0;
+    }
+    .gym-classes .p-gym-info .header-desc {
+        width: auto;
+    }
+    .gym-classes .bg-img {
+        min-height: 300px;
+    }
+    .gym-classes .icon:before {
+        left: 0;
+    }
+    .p-const-choose .p-const-choose-text .service-block .desc {
+        padding-right: 0;
+    }
+    .gym-classes .p-gym-info .service-block .desc {
+        padding-left: 0;
+    }
+    .p-gym-info .header-desc {
+        width: auto;
+    }
+    
+    .service-block{
+        text-align: center;
+    }
+    
+    .service-block.type-2 .image {
+        min-width: 100px;
+        position: static;
+        display: block;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        
+        img{
+            position: static;
+            margin: 0 auto;
+            transform: translateY(0);
+        }
+    }
+    
+    .service-block.type-2 .desc{
+        margin-top: 10px;
+    }
+    
+    //choose
+    .p-const-choose .p-const-choose-text .service-block .desc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* ECOMMERCE */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    //view more
+    .p-commerce-more{
+        padding: 0;
+    }
+    
+    .p-commerce-more .main-visual {
+        padding: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    //header
+    header.p-commerce-head .card-popup{
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    //our products
+    .p-commerce-prod-filter .filter-list li {
+        padding: 0 20px;
+    }
+    
+    //promo
+    .p-commerce-promo-wrap{
+        display: block;
+        width: 100%;
+    }
+    .p-commerce-promo{
+        display: block;
+        width: 100%;
+    }
+    .commerce-promo-left{
+        border-right: none;
+    }
+    .commerce-promo-right{
+        border-left: none;
+    }
+    .p-commerce-promo .promo-img .img-bg {
+        background-position: 70px bottom;
+    }
+    
+    //services
+    .col-xs-12:nth-child(-n+2) .service-wrap{
+        border-bottom: 1px solid #f7f7f7; 
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    //products
+    .p-commerce-prod-filter .filter-list li {
+        display: block;
+        padding: 10px 20px;
+    }
+    .p-commerce-prod-filter {
+        margin-top: 30px;
+    }
+    .p-commerce-prod-filter .prod-grid {
+        margin-top: 0;
+    }
+    
+     //promo
+    .p-commerce-promo .promo-img .img-bg {
+        background-position: 20px bottom;
+    }
+    .p-commerce-promo .promo-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    //popular
+    .p-commerce-pop-head {
+        margin-bottom: 30px;
+    }
+    
+    //two sliders
+    .banner-slider-box .slider-box-info {
+        padding: 0 50px 50px;
+
+    }
+    
+    //blog
+    .from-blog-head {
+        margin-bottom: 40px;
+    }
+    
+     //services
+    .col-xs-12:not(:last-child) .service-wrap{
+        border-bottom: 1px solid #f7f7f7; 
+    }
+    
+    .p-commerce-services .service-block .image {
+        float: none;
+    }
+    
+    .p-commerce-services .service-block{
+        text-align: center;
+    }
+    
+    .p-commerce-services .service-block.type-3 .desc {
+        padding-left: 0;
+    }
+    
+    //footer
+    .p-commerce-foot .footer-link li {
+        float: none;
+        display: block;
+        
+        a{
+            display: block;
+            padding: 10px 0;
+        }
+    }
+    
+    //view more
+    .p-commerce-more{
+        padding: 50px;
+    }
+}
+
+
+@media only screen and (max-width : 550px) {
+    .no-padd-550{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .padd-15-550{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    //header
+    header.p-commerce-head {
+        top: 15px;
+        left: 15px;
+        right: 15px;
+    }
+    
+    //banner
+    .p-commerce-slider-one {
+        margin-top: -15px;
+    }
+    
+    //promo banner
+    .p-commerce-promo .promo-img {
+        display: none;
+    }
+    .p-commerce-promo .promo-info {
+        width: 100%;
+        left: 0%;
+        padding: 100px 20px;
+    }
+    
+    //slider banner
+    .p-commerce-ban-slider {
+        padding-bottom: 50px;
+    }
+    
+    //footer
+    .p-commerce-foot {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        bottom: 15px;
+    }
+    
+    //view more
+    .p-commerce-more{
+        padding: 0;
+    }
+}
+
+
+
