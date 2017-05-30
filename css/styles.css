@@ -1,60 +1,22 @@
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*STYLE.CSS*/
+/*-------------------------------------------------------------------------------------------------------*/
 /*This is main CSS file that contains custom style rules used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: Barcelona*/
-/* Version: 1.0 auto Release*/
-/* Build Date: 29-06-2016*/
-/* Author: Fox Team*/
-/* Website: wp.city */
+/*-------------------------------------------------------------------------------------------------------*/
+/* Template Name: NRG.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 02-03-2016*/
+/* Author: */
+/* Website: */
 /* Copyright: (C) 2016 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------*/
 /* TABLE OF CONTENTS: */
-                        /*
-    0.1 GLOBAL SETTINGS 
-    0.2 Custom paddings/margins
-    01 - ALL STYLES
-    02 - ABOUT SECTION
-    03 - TESTIMONIALS SLIDER SECTION
-    04 - BANNERS
-    05 - FOR HIM/HER MENU 
-    06 - INFO BLOCK
-    07 - CLASSES
-    08 - SERVICES
-    09 - INFO
-    10 - COUNTDOWN
-    11 - GALLERY
-    12 - TRAINERS
-    13 - HELPER
-    14 - HELPFUL ARTICLES
-    15 - FEATURES
-    16 - CONTACT
-    17 - FOOTER
-    17.1 - GENERAL ELEMENTS STYLES
-    18 - SKILLS
-    19 - SOCIAL ICONS
-    19.1 GOOGLE MAPS
-    19.2 NRG ECOMMERCE HOME
-    19.3 POPULAR PRODUCTS
-    19.3 STANDART WIDGETS
-    20 -  BLOG
-    21 - PAGER
-    22 - NUMBERS
-    23 - TABS
-    24 - CHECKOUT AND CART
-    24.1 PRODUCT BOX STYLE
-    24.2 VIEW MORE
-    25 - MAGNIFIC POPUP
-    26 - PRELOADER
-    27 - SWIPER
-    28 - SAFARI, EXPLORER, FIREFOX STYLES
-    29  -MEDIA QUERIES
- */
 /*--------------------------------------------------------*/
-
+body {
+  background-color: red; }
 
 /*---------------------------------------------------------------------------------------*/
-/*0.1 GLOBAL SETTINGS */
+/* GLOBAL SETTINGS */
 /*--------------------------------------------------------------------------------------*/
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -139,7 +101,7 @@
 .no-padding {
   padding-left: 0px;
   padding-right: 0px; }
-s
+
 .no-padding-left {
   padding-left: 0; }
 
@@ -787,8 +749,8 @@ s
 /* Copyright: (C) 2016 */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------*/
-/* TABLE OF CONTENTS: */
-                        /*
+/* TABLE OF CONTENTS:: */
+                         /*
 
     01 - ALL STYLES
     02 - ABOUT SECTION
@@ -1450,7 +1412,7 @@ a:active, a:focus {
     top: 50px;
     bottom: 50px;
     right: 50px;
-    background: rgba(200, 51, 96, 0.8);
+    background: #C23334;
     opacity: 0;
     cursor: pointer;
     transition: all ease-out .4s;
@@ -1908,8 +1870,8 @@ a:active, a:focus {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .p-gym-classes {
   position: relative;
-  padding: 271px 0 0;
-  min-height: 838px;
+  padding: 110px 0 0;
+  min-height: 590px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -1920,8 +1882,10 @@ a:active, a:focus {
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(51, 51, 51, 0.75);
+    background: #fff;
     z-index: 1; }
+  .p-gym-classes .heading-title {
+    color: #000; }
   .p-gym-classes .gym-classes-row {
     margin-top: 80px;
     position: relative;
@@ -1941,12 +1905,13 @@ a:active, a:focus {
       .p-gym-classes .gym-classes-row .gym-class-col:hover .class-coach {
         margin-top: 10px; }
       .p-gym-classes .gym-classes-row .gym-class-col:hover a {
-        background: #C83360;
+        background: #c2c2c2;
         color: #fff; }
     .p-gym-classes .gym-classes-row .class-date {
       font-style: italic;
       font-size: 13px;
-      letter-spacing: 3.2px; }
+      letter-spacing: 3.2px;
+      color: #000; }
     .p-gym-classes .gym-classes-row .class-type {
       padding: 3px 0 0;
       font-size: 18px;
@@ -1954,12 +1919,14 @@ a:active, a:focus {
       letter-spacing: 1.2px; }
       .p-gym-classes .gym-classes-row .class-type a {
         display: inline-block;
-        padding: 10px 15px; }
+        padding: 10px 15px;
+        background: #C23334; }
     .p-gym-classes .gym-classes-row .class-coach {
       padding-top: 11px;
       font-size: 13px;
       opacity: .8;
-      letter-spacing: .8px; }
+      letter-spacing: .8px;
+      color: #000; }
 
 .gym-classes .p-gym-info {
   min-height: 100%; }
@@ -2030,7 +1997,8 @@ a:active, a:focus {
   margin-bottom: 0;
   padding: 60px 30px;
   height: 280px;
-  cursor: pointer; }
+  cursor: pointer;
+  background: #fff; }
   .p-gym-services .service-block::before {
     content: "";
     position: absolute;
@@ -3644,7 +3612,7 @@ a:active, a:focus {
     .wpc-contact-form {
       margin: 30px 0; } }
   .wpc-contact-form .title {
-    color: #ff3366;
+    color: #C23334;
     text-transform: uppercase;
     text-align: center;
     font: 800 32px "Raleway", sans-serif;
@@ -3832,7 +3800,7 @@ a:active, a:focus {
   padding: 15px 16px; }
 .p-gym-footer .wrap-footer {
   background-color: #1e1e1e;
-  border-top: 4px solid #ff3366; }
+  border-top: 4px solid #C23334; }
   .p-gym-footer .wrap-footer .right-section {
     padding-top: 130px; }
     @media (max-width: 991px) {
@@ -5768,8 +5736,6 @@ header.p-commerce-head .link:hover a {
 
   .gym-section.program-info .wrap-info {
     padding-bottom: 120px; } }
-
-
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* MEDIA QUERIES */
 /*-------------------------------------------------------------------------------------------------------------------------------*/

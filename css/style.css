@@ -792,7 +792,7 @@ header .nav-menu-icon.type-2 a.active i {
 }
 
 .header-style-2 nav > ul > li.active > a,.header-style-2.modern nav > ul > li.active > a {
-    color: #f36;
+    color: #C23334;
 }
 
 .header-style-2 nav > ul > li > a:hover,.header-style-2.modern nav > ul > li > a:hover {
@@ -4759,8 +4759,8 @@ a.tags-b {
 
 .c-btn.color-9 {
     color: #fff;
-    outline-color: #c83360;
-    background: #c83360;
+    outline-color: #C23334;
+    background: #C23334;
 }
 
 .c-btn.color-10 {
