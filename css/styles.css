@@ -2390,7 +2390,7 @@ a:active, a:focus {
       width: 100%;
       height: 100%;
       position: absolute;
-      background-color: rgba(243, 59, 105, 0.7);
+      background-color: rgba(194, 51, 52, 0.7);
       z-index: 9;
       font-size: 40px;
       color: #fff;
@@ -2834,7 +2834,7 @@ a:active, a:focus {
     .gym-pagination-style .swiper-pagination-switch:hover {
       transform: scale(1.4); }
   .gym-pagination-style .swiper-active-switch {
-    background: #c83360; }
+    background: #C23334; }
 
 .about-banner {
   z-index: 9;
@@ -3707,7 +3707,7 @@ a:active, a:focus {
 .wpc-contact-info a:hover {
   color: #C5C4C4; }
 .wpc-contact-info .fa {
-  color: #ff3366;
+  color: #C23334;
   font-size: 20px;
   margin-right: 10px; }
   .wpc-contact-info .fa.fa-mobile-phone {
@@ -3839,7 +3839,7 @@ a:active, a:focus {
     .wpc-copyright {
       font-size: 14px; } }
   .wpc-copyright .mark {
-    color: #ff3366;
+    color: #C23334;
     background-color: transparent; }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
